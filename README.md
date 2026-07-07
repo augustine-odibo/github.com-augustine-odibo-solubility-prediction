@@ -40,3 +40,75 @@ if __name__ == "__main__":
     logS = predict_solubility(smiles)
     print(f"SMILES: {smiles}")
     print(f"Predicted log solubility: {logS:.2f} mol/L")
+
+
+    improvement:
+    # Solubility Prediction
+
+A machine learning project for predicting molecular solubility using [your approach: neural networks/ensemble methods/etc.].
+
+## Overview
+
+This project predicts the solubility of chemical compounds based on molecular descriptors/SMILES strings [adjust based on your actual input].
+
+## Features
+
+- [Key feature 1]
+- [Key feature 2]
+- [Key feature 3]
+
+## Installation
+
+```bash
+git clone https://github.com/augustine-odibo/github.com-augustine-odibo-solubility-prediction.git
+cd github.com-augustine-odibo-solubility-prediction
+pip install -r requirements.txt
+```
+
+## Usage
+
+```python
+from model import predict_solubility
+
+# Example usage
+result = predict_solubility(molecule_data)
+print(f"Predicted solubility: {result}")
+```
+
+## Dataset
+
+- Source: [Your dataset source]
+- Size: [Number of samples]
+- Features: [Brief description of features]
+
+## Model Performance
+
+- Accuracy: [Your metric]
+- RMSE: [Your metric]
+- R² Score: [Your metric]
+
+## Project Structure
+
+```
+├── data/              # Dataset files
+├── models/            # Trained models
+├── notebooks/         # Jupyter notebooks
+├── src/               # Source code
+└── requirements.txt   # Dependencies
+```
+
+## Requirements
+
+- Python 3.8+
+- scikit-learn
+- pandas
+- numpy
+- [Other dependencies]
+
+## License
+
+[Specify your license]
+
+## Author
+
+Augustine Odibo
